@@ -1,0 +1,25 @@
+/* Add your CSS styles here */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+section {
+  margin: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+#map-canvas {
+  height:420px; width:620px; background-color:#6495ed; display:none;
+}
+/* Add more styles as needed */

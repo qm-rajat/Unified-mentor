@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EV Recharge Bunk</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <header>
+    <h1>EV Recharge Bunk System</h1>
+  </header> 
+  <video width="400" height="200" autoplay muted>
+  <source src="106983234.webm" type="video/webm">
+Your browser does not support the video tag.
+</video>
+
+ <section id="admin-section">
+    <h2>Admin Section</h2>
+    <div>
+      <button onclick="adminLogin()">Login</button>
+      <button onclick="adminRegister()">Register</button>
+      <button onclick="createEVBunkLocation()">Create EV Bunk Location</button>
+      <button onclick="manageBunkDetails()">Manage Bunk Details</button>
+      <button onclick="manageRechargeSlots()">Manage Recharge Slots</button>
+    </div>
+
+    <div id="admin-login-form" style="display: none;">
+      <!-- Admin Login Form Content -->
+    </div>
+
+    <div id="admin-register-form" style="display: none;">
+      <!-- Admin Register Form Content -->
+    </div>
+
+    <div id="create-bunk-location" style="display: none;">
+      <!-- Create EV Bunk Location Form Content -->
+    </div>
+
+    <div id="manage-bunk-details" style="display: none;">
+      <!-- Manage Bunk Details Content -->
+    </div>
+
+    <div id="manage-recharge-slots" style="display: none;">
+      <!-- Manage Recharge Slots Content -->
+    </div>
+  </section>
+
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
